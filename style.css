@@ -140,6 +140,12 @@ ul {
   right: 895px;
   top: 64px;
 }
+.black {
+  /* position: relative;
+  top: 100px; */
+  color: black;
+}
+
 #divBusca {
   display: flex;
   align-items: center;
