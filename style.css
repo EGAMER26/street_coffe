@@ -164,3 +164,18 @@ main {
   width: 222px;
   height: 40px;
 }
+
+@media (max-widht: 1196px) {
+}
+@media (max-width: 1196px) {
+  main {
+    display: flex;
+    flex-direction: column;
+    transition: 500ms;
+    
+  }
+  .wrapper {
+    margin-top: 12rem;
+  }
+
+}
