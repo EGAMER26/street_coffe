@@ -20,15 +20,9 @@ main {
 }
 nav {
   display: flex;
-  flex-direction: row;
-  width: 1161px;
-  height: 40px;
-  align-items: baseline;
   justify-content: space-around;
-  position: relative;
-  left: 200px;
-  align-items: center;
-  padding-top: 32px;
+  width: 100%;
+  min-width: 50rem;
 }
 ul {
   display: flex;
