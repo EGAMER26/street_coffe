@@ -3,20 +3,20 @@
   text-decoration: none;
 }
 html {
+  background-color: #f6ebda;
 }
 header {
-  background-color: #f6ebda;
 }
 
 main {
   background-color: #f6ebda;
   width: 100%;
-  height: 970px;
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  /* height: 970px; */
   /* gap: 242px; */
-  padding-left: 400px;
-  z-index: 4px;
 }
 nav {
   display: flex;
@@ -30,7 +30,7 @@ ul {
   color: black;
 }
 .capp {
-  position: absolute;
+  /* position: absolute; */
   bottom: 600px;
   z-index: 4;
   width: 283px;
@@ -48,7 +48,7 @@ ul {
 }
 
 .notaa {
-  position: absolute;
+  /* position: absolute; */
   bottom: 530px;
   right: 500px;
   z-index: 5;
@@ -69,7 +69,7 @@ ul {
 }
 
 .vizz {
-  position: absolute;
+  /* position: absolute; */
   bottom: 290px;
   right: 800px;
   z-index: 6;
@@ -88,19 +88,26 @@ ul {
 }
 
 .beens {
-  position: absolute;
+  /* position: absolute; */
   top: -30px;
   right: -100px;
   z-index: 1px;
 }
 .wrapper {
-  margin-top: 140px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  grid-column: 1;
+  width: 100%;
+  height: 100%;
+
 }
 .coffee {
-  position: relative;
+  /* position: relative;
   right: 47px;
   margin-top: 140px;
-  z-index: 4;
+  z-index: 4; */
 }
 .orange {
   color: orange;
@@ -124,13 +131,13 @@ ul {
   margin-top: 32px;
 }
 .circle {
-  position: relative;
+  /* position: relative;
   right: 501px;
-  top: 154px;
+  top: 154px; */
 }
 .x {
   z-index: 3;
-  position: relative;
+  /* position: relative; */
   right: 895px;
   top: 64px;
 }
