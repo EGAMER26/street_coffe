@@ -163,14 +163,14 @@ main {
   border: none;
   width: 222px;
   height: 40px;
+  /* /hello */
 }
 
-@media (max-widht: 1196px) {
-}
+
 @media (max-width: 1196px) {
   main {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
     transition: 500ms;
     
   }
